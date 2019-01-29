@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="beyondtechnology.indicemassa.Calculo">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="4" android:rowCount="4"
+        android:orientation="horizontal">
+
+        <TextView android:text="Peso" android:layout_columnSpan="4"/>
+        <EditText android:id="@+id/txtPeso" android:layout_columnSpan="4" android:textAlignment="center" android:layout_width="60dp"
+                  android:inputType="number" />
+
+        <TextView android:text="Altura" android:layout_columnSpan="4"/>
+        <EditText android:id="@+id/txtMetros" android:layout_width="60dp" android:textAlignment="center" android:layout_columnSpan="1" android:inputType="number" />
+        <TextView android:text="m" android:layout_columnSpan="1"/>
+        <EditText android:id="@+id/txtCentimetros" android:layout_width="60dp" android:textAlignment="center" android:layout_columnSpan="1" android:inputType="number" />
+        <TextView android:text="cm" android:layout_columnSpan="1"/>
+        <Button android:layout_columnSpan="2" android:text="Calcular IMC" android:id="@+id/btnCalcular" android:onClick="calcular" />
+        <Button android:layout_columnSpan="2" android:text="Salvar" android:id="@+id/btnSalvar" android:onClick="salvar" />
+
+        <TextView android:text="" android:layout_columnSpan="4"/>
+        <TextView android:id="@+id/txtResultado" android:text="Resultado: " android:textColor="@color/colorPrimary" android:textSize="30dp" android:layout_columnSpan="4"/>
+        <TextView android:id="@+id/txtResultado2" android:text="" android:textColor="@color/colorPrimary" android:textSize="30dp" android:layout_columnSpan="4"/>
+
+    </GridLayout>
+
+</FrameLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Indice de Massa Corporal - IMC</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Calculo</string>
+    <string name="hello_blank_fragment2">
+Abaixo de 17 - Muito abaixo do peso\n\n
+Entre 17 e 18,49 - Abaixo do peso\n\n
+Entre 18,5 e 24,99 - Peso normal\n\n
+Entre 25 e 29,99 - Acima do peso\n\n
+Entre 30 e 34,99 - Obesidade I\n\n
+Entre 35 e 39,99 - Obesidade II (severa)\n\n
+Acima de 40	Obesidade III (mórbida)</string>
+</resources>
